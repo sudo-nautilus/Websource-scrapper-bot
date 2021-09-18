@@ -1,0 +1,3 @@
+pyrogram
+cloudscraper
+bs4
