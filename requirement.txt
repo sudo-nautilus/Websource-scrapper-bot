@@ -1,3 +1,4 @@
 pyrogram
 cloudscraper
 bs4
+requests
