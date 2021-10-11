@@ -12,12 +12,13 @@ async def start(bot, cmd):
         RURL = txt.split(" ")[1]
         page = = requests.get(RURL)
         soup = BeautifulSoup(page.content, "html.parser")
-        with open("web-source-scrapper.txt", "w+") as file:
+        
+        with open(f"web-baka-scrapper-{cmd.from_user.id}.txt", "w+") as file:
             file.write(soup)
+        try:
+        await cmd.reply_document("web-baka-scrapper-{cmd.from_user.id}.txt")
 
-
-        remove("ultroid_updates.txt")
-
+        remove(f"web-baka-scrapper-{cmd.from_user.id}.txt")
     else:
         await cmd.reply_sticker("CAACAgIAAxkBAAJtdWEJ8kFVLOTcJZkoO4AgLEQiqhjVAAIpKwAC4KOCBxOA6A0D4-_jIAQ", quote=True)
         await cmd.reply_text("No query please give streamtape vaild link",
