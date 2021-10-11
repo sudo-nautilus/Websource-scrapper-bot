@@ -1,3 +1,8 @@
 # web-source-scrapper
 `Wait i will make`
-- make cloudscraper (basic)
+## req:
+> bs4 BeautifulSoup
+
+> requests
+## Heroku install
+- I'll add button later 
