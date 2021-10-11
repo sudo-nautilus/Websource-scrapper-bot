@@ -21,4 +21,4 @@ async def start(bot, cmd):
         remove(f"web-baka-scrapper-{cmd.from_user.id}.txt")
     else:
         await cmd.reply_sticker("CAACAgIAAxkBAAJtdWEJ8kFVLOTcJZkoO4AgLEQiqhjVAAIpKwAC4KOCBxOA6A0D4-_jIAQ", quote=True)
-        await cmd.reply_text("No query please give streamtape vaild link",
+        await cmd.reply_text("No query please give streamtape vaild link")
