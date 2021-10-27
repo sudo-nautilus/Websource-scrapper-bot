@@ -5,4 +5,4 @@
 ## Sorry i completely forgot about this Open-source project 😆
 > requests
 ## Heroku install
-- I'll add button later 
+- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
