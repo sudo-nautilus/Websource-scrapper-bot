@@ -1,0 +1,44 @@
+{
+    "name": "Web source code scrapper Bot",
+    "description": "A Bot that scrap the source of website and then send the txt file of it..",
+    "keywords": [
+        "telegram",
+        "webscraping",
+        "bot",
+        "html",
+        "source",
+        "free"
+    ],
+    "repository": "https://github.com/heartlog/web-source-scrapper/",
+    "website": "https://t.me/diablo_13N",
+    "success_url": "https://t.me/baka_no_onii",
+    "env": {
+        "API_ID": {
+            "description": "Go to my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get to my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather"
+        },
+        "BOT_OWNER": {
+            "description": "Bot Owner UserID",
+            "required": false
+        },
+        "LOG_CH": {
+            "description": "Logs Channel mention without '@'. Example: baka_no_onii"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
