@@ -27,7 +27,8 @@
             "required": false
         },
         "LOG_CH": {
-            "description": "Logs Channel mention without '@'. Example: baka_no_onii"
+            "description": "Logs Channel mention without '@'. Example: baka_no_onii",
+            "required": false
         }
     },
     "buildpacks": [
