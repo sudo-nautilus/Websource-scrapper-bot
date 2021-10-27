@@ -10,6 +10,7 @@
         "free"
     ],
     "repository": "https://github.com/heartlog/web-source-scrapper/",
+    "logo": "https://telegra.ph/file/766bd5ab54d8bbbf617f2.jpg",
     "website": "https://t.me/diablo_13N",
     "success_url": "https://t.me/baka_no_onii",
     "env": {
